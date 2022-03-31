@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title> Simple Quiz</title>
+</head>
+<body>
+    <header>
+        <h1> Simple Quiz</h1>
+    </header>
+    <div class="container">
+        Q1- What Is 210 + 101 ? <br>
+        <input type="radio" name="question1">  400 <br>
+        <input type="radio" name="question1" id="correct1">  311 <br>
+        <input type="radio" name="question1">  500 <br>
+        <input type="radio" name="question1">  700 <br>
+        <button class="next" onclick="next(1)">NEXT</button>
+    </div>
+
+
+    <div class="container">
+        Q2- What Is 20 + 11? <br>
+        <input type="radio" name="question2">   33 <br>
+        <input type="radio" name="question2">   30 <br>
+        <input type="radio" name="question2">   50 <br>
+        <input type="radio" name="question2"id="correct2">   31 <br>
+        <button class="next" onclick="next(2)">NEXT</button>
+    </div>
+
+
+    <div class="container">
+        Q3- What Is 34 + 14? <br>
+        <input type="radio" name="question3">   84 <br>
+        <input type="radio" name="question3">   80 <br>
+        <input type="radio" name="question3">   40 <br>
+        <input type="radio" name="question3"id="correct3">   48 <br>
+        <button class="next" onclick="next(3)">NEXT</button>
+    </div>
+
+
+    <div class="container">
+        Q4- What Is 44 + 19? <br>
+        <input type="radio" name="question4">   36 <br>
+        <input type="radio" name="question4">   50 <br>
+        <input type="radio" name="question4" id="correct4">   63 <br>
+        <input type="radio" name="question4">   62 <br>
+        <button onclick="result()">Submit</button>
+    </div>
+    
+
+
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="btn">
+            &copy;KLIG
+            <i class="fa-solid fa-hand-fist"></i> &nbsp; <sub>17/March/2022</sub>
+        </div>
+    </footer>
+<script src="index.js"></script>
+</body>
+</html>
